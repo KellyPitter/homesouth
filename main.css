@@ -1,0 +1,52 @@
+:root {
+    --theme-color-a: #E9DCCD;
+    --theme-color-b: #e3bab3;
+    --theme-color-c: #613A43;
+    --theme-color-d: #849974;
+    --theme-color-e: #36384C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background: var(--theme-color-e);
+}
+
+h2 {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+
+
+
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+*,
+*:after,
+*:before{
+    box-sizing: inherit;
+}
+
+body{
+    margin:0;
+    overflow: hidden;
+}
+
+a{
+    color: #01579b;
+    transition: color 0.3s;
+}
+
+a:hover{
+    color: #00b0ff;
+}
